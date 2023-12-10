@@ -1,0 +1,148 @@
+@media (max-width:768px) {
+    /*
+      ... правила для планшетов ...
+      выводим карточки товаров по 2 в ряд
+    */
+    .slider3{
+      top: 150px;
+    }
+    #ftr,h2{
+      font-size: 30px;
+      bottom: 60px;
+    }
+    #txt-ftr2{
+      bottom: 60px;
+    }
+    #txt-ftr3{
+      bottom: 100px;
+    }
+    #txt-ftr4{
+      bottom: 150px;
+    }
+    #txt-ftr5{
+      bottom: 400px;
+    }
+    #main-txt{
+      top: 10px;
+    }
+  }
+  
+@media (max-width:480px){
+  html,body{
+    overflow-x: hidden;
+    height: 4000;
+   }
+   .slider3{
+    height: 1000px;
+    top: 200px;
+   }
+   #parent-photo{
+    bottom: 200px;
+    width: 90%;
+   }
+   #ftr,h2{
+    font-size: 30px;
+    bottom: 60px;
+  }
+  #txt-ftr2{
+    bottom: 60px;
+  }
+  #txt-ftr3{
+    bottom: 100px;
+  }
+  #txt-ftr4{
+    bottom: 150px;
+  }
+  #txt-ftr5{
+    bottom: 200px;
+  }
+  
+}
+@media (max-width:320px) {
+    #txt-head{
+        display: flex;
+        justify-content: center;
+        font-size: 55px;
+        top: -25px;
+    }
+    .header{
+        height: 80px;
+    }
+    .background{
+        top: 70px;
+    }
+    #main-txt{
+        display: flex;
+        justify-content:center;
+        top: -30px;
+        font-size: 50px;
+    }
+    #txt-body{
+        font-size: 25px;
+        top: -50px;
+    }
+    #txt-body-under{
+        top: -80px;
+    }
+    #bck{
+      top: -200px;
+    }
+    #txt-in-expl{
+        top: -30px;
+    }
+    .txt-big{
+      top: -40px;
+    }
+    #background-coffe{
+      height: 700px;
+    }
+    #link{
+      display: none;
+    }
+    #atmosphere{
+      height: 700px;
+    }
+    #menu-block{
+      height: 400px;
+    }
+   html,body{
+    overflow-x: hidden;
+    height: 4000;
+   }
+    #main-txt{
+      top: -10px;
+    }
+    #prnt{
+      bottom: 500px;
+    }
+    #ftr,h2{
+      font-size: 25px;
+    }
+    #parent-photo{
+      position: absolute;
+      bottom: 50px;
+    }
+    #txt-menu{
+      transform:translateY(-100px) ;
+    }
+    #txt-ftr2{
+      top: 30px;
+    }
+    #txt-ftr3{
+      top: 100px;
+    }
+    #txt-ftr4{
+      top: 150px;
+    }
+    .slider3{
+      transform:translateY(-150px) ;
+    }
+    #txt-photos{
+      top: 25px;
+    }
+   /*
+      ... правила для смартфонов ...
+      выводим карточки товаров по 1 в ряд
+    */
+  }
+  
