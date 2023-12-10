@@ -1,0 +1,276 @@
+#main-txt{
+    position: relative;
+    font-size: 60px;
+    top:0;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-450px);
+    z-index: -1;
+}
+@media screen and (max-width:900px) {
+    .container{
+        display: none;
+    }
+}
+.background {
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    min-height: 100vh;
+  }
+  @media only screen and (max-width: 2100px) { 
+#first-photo{
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover; 
+    object-position: bottom; 
+  }
+}
+#txt-body{
+    position: relative;
+    transform: translateY(-350px);
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    z-index: -1;
+} 
+#txt-body-under{
+    position: relative;
+    transform: translateY(-200px);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    z-index: -1;
+}
+#bck{
+    position: relative;
+    top: -180px;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+    background-color:burlywood;
+    border: 2px solid;
+}
+#txt-in-expl{
+    position: relative;
+    top: 30px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+}
+.txt-big{
+ position: relative;
+ top: 100px;
+ font-size: 20px;  
+}
+
+#photos{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 800px;
+    background-color: grey;
+    bottom: 230px;
+}
+#txt-photos{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+#parent{
+    position: relative;
+}
+
+#atmosphere{
+    position: relative;
+    z-index: 0;
+    bottom: 310px;
+    width: 100%;
+    height: 1200px;
+    background-color: grey;
+}
+#txt-atmos{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+#pht1{
+    /*position: absolute;
+    left: 20px;*/
+    width: 450px;
+}
+#pht2{
+    /*display:block;
+    margin:50px;*/
+    width: 450px;
+}
+#pht3{
+    /*position: absolute;
+    right: 20px;
+    top: 80px;*/
+    width: 450px;
+}
+#menu-block{
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    /*border: 3px solid rgb(127, 204, 255);
+    border-radius:2%;*/
+}
+#txt-menu{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+}
+#parent-photo{
+    position: absolute;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    text-align: center; 
+}
+#menu-photo{
+   position: relative;
+   width: 100%;
+   border: 2px solid;
+   height: auto;
+   box-shadow: rgba(46, 188, 240, 0.3) -5px 5px, rgba(46, 188, 240, 0.3) -10px 10px, rgba(46, 188, 240, 0.3) -15px 15px, rgba(46, 188, 240, 0.3) -20px 20px, rgba(46, 188, 240, 0.3) -25px 25px;
+    display: block;
+    justify-content: center;
+}
+#tg{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
+
+#background-coffe{
+    display: flex;
+    position:relative;
+    z-index: 0;
+    bottom: 270px;
+    max-width: 100%;
+    height: 1000px;
+    background-color: wheat;
+}
+.slider{
+    width: 1300px;
+    /*max-width: 100vw;*/
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+#link{
+    position: fixed;
+    width: 100px;
+    height: 100px; 
+    bottom: 50px;
+    right: 10px;
+}
+#tg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height:100px;  
+}
+#tg-photo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: 10px;
+}
+#parent-link{
+    position: relative;
+    z-index: 3;
+}
+#menu-prnt{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    bottom: 500px;
+    z-index: 0;
+}
+#txt-menu{
+    position: relative;
+    top: 100px;
+}
+#menu-prnt1{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: black;
+    bottom: 500px;
+}
