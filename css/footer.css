@@ -1,0 +1,40 @@
+#prnt{
+   position: relative;
+}
+#ftr{
+    min-height: calc(100vh - 70px);
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 350px;
+    background-color: wheat;
+    display: grid;
+    place-items: center;
+    border: 4px solid black;
+}
+#txt-ftr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+#txt-ftr2{
+    font-size: 30px;
+    position: relative;
+}
+#txt-ftr3{
+    font-size: 28px;
+    position: relative;
+}
+#txt-ftr4{
+    font-size: 28px;
+    position: relative;
+}
+#txt-ftr5{
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 120px 4px;
+    width: max-content;
+    position: relative;
+}
