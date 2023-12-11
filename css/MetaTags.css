@@ -41,20 +41,31 @@
     width: 90%;
    }
    #ftr,h2{
-    font-size: 30px;
+    font-size: 25px;
     bottom: 60px;
   }
   #txt-ftr2{
-    bottom: 60px;
+    bottom: 30px;
   }
   #txt-ftr3{
-    bottom: 100px;
+    bottom: 70px;
   }
   #txt-ftr4{
-    bottom: 150px;
+    bottom: 100px;
   }
   #txt-ftr5{
-    bottom: 200px;
+    bottom: 100px;
+  }
+  #txt-photos{
+    top: 25px;
+  }
+  #txt-head{
+    font-size: 50px;
+    transform: translateY(50px);
+  }
+  #link, #tg, #tg-photo{
+    width: 50px;
+    height: 50px;
   }
   
 }
